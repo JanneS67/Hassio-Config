@@ -1,0 +1,43 @@
+############################################
+#### SWITCHES
+############################################
+- platform: command_line
+  switches:
+    aeotec_zstick_disco_light:
+      friendly_name: 'Aeotec Z-Stick Disco Light'
+      command_on: 'echo -e -n "\x01\x08\x00\xF2\x51\x01\x01\x05\x01\x50" > /dev/serial/by-id/usb-0658_0200-if00'
+      command_off: 'echo -e -n "\x01\x08\x00\xF2\x51\x01\x00\x05\x01\x51" > /dev/serial/by-id/usb-0658_0200-if00'
+
+- platform: rfxtrx
+  automatic_add: True
+  signal_repetitions: 2
+  devices:
+    0b11000144bc0cfe06010f70:
+      name: bookshelf_right_16
+    0b11000455bc0cfe05010f70:
+      name: masterbedroom_gablewindow_1
+    0b11000460bc0cfe00010f70:
+      name: masterbedoom_streetwindow_2
+    0b11000206bc0cfe09010f70:
+      name: tv_bench_left_6
+    0b11000432bc0cfe02010f70:
+      name: moas_bedroom_window_14
+    0b11000402bc0cfe06010f70:
+      name: patio_door_right_5
+    0b11000611bc0cfe02010f70:
+      name: living_room_left_corner_3
+    0b11000399bc0cfe01010f70:
+      name: hallway_masterbedroom_8
+    0b11000240bc0cfe08010f70:
+      name: kitchen_gablewindow_12
+    0b11000423bc0cfe09010f70:
+      name: kitchen_streetwindow_10
+    0b11000611bc0cfe03010f70:
+      name: patio_door_left_9
+    0b11000410bc0cfe04010f70:
+      name: family_room_skylight_11
+    0b11000382bc0cfe01010f70:
+      name: bookshelf_left_15
+    0b11000540bc0cfe06010f70:
+      name: living_room_right_corner_4
+    

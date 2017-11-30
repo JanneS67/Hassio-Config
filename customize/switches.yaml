@@ -1,0 +1,59 @@
+############################################
+#### Customize Switches
+############################################
+
+switch.masterbedoom_streetwindow_2:
+  friendly_name: Sovrum Gatufönster
+  icon: mdi:lightbulb
+#  icon: mdi:led-on
+switch.masterbedroom_gablewindow_1:
+  friendly_name: Sovrum Gavelfönster
+  icon: mdi:lightbulb
+switch.hallway_masterbedroom_8:
+  friendly_name: Hallen/Sovrumsdörr
+  icon: mdi:lightbulb
+switch.patio_door_right_5:
+  friendly_name: Altandörr höger
+  icon: mdi:lightbulb
+switch.patio_door_left_9:
+  friendly_name: Altandörr vänster
+  icon: mdi:lightbulb
+switch.tv_bench_left_6:
+  friendly_name: TV-bänk vänster
+  icon: mdi:lightbulb
+switch.living_room_right_corner_4:
+  friendly_name: Vardagsrum höger hörn
+  icon: mdi:lightbulb
+switch.living_room_left_corner_3:
+  friendly_name: Vardagsrum vänster hörn
+  icon: mdi:lightbulb
+switch.kitchen_streetwindow_10:
+  friendly_name: Köksfönster lilla
+  icon: mdi:lightbulb
+switch.kitchen_gablewindow_12:
+  friendly_name: Köksfönster stora
+  icon: mdi:lightbulb
+switch.moas_bedroom_window_14:
+  friendly_name: Moas fönster
+  icon: mdi:lightbulb
+switch.family_room_skylight_11:
+  friendly_name: Allrum takfönster
+  icon: mdi:lightbulb
+switch.bookshelf_left_15:
+  friendly_name: Bokhylla vänster
+  icon: mdi:lightbulb
+switch.bookshelf_right_16:
+  friendly_name: Bokhylla höger
+  icon: mdi:lightbulb
+
+switch.philio_technology_corporation_unknown_type0001_id0029_switch:
+  friendly_name: TV-bänk
+  icon: mdi:kettle
+switch.philio_technology_corporation_unknown_type0001_id0029_switch_2:
+  friendly_name: Serverrum
+ #icon: mdi:kettle
+  entity_picture: /local/wemo.jpg
+zwave.fibaro_system_fgwpef_wall_plug:
+  friendly_name: Fibaro
+# icon: mdi:kettle
+  icon: mdi:lightbulb

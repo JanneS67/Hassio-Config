@@ -1,0 +1,59 @@
+mainfloor:
+  name: Bottenvåningen
+  view: yes
+  entities:
+    - group.mainfloor_livingroom
+    - group.front_door
+    - group.main_floor_outside_lights
+    - group.mainfloor_bedroom
+    - group.mainfloor_kitchen
+    - group.all_switches
+#    - switch.strombrytare_3
+
+mainfloor_livingroom:
+  name: Vardagsrummet
+  entities:
+#    - media_player.vardagsrummet
+#    - binary_sensor.samsung_tv
+    - sensor.allrum_temperature
+    - sensor.moas_rum_ute_temperature
+    - switch.living_room_right_corner_4
+    - switch.patio_door_left_9
+    - switch.patio_door_right_5
+    - switch.living_room_left_corner_3
+    - light.hue_color_lamp_1
+    - switch.bookshelf_left_15
+    - switch.bookshelf_right_16
+
+mainfloor_bedroom:
+  name: Sovrum
+  entities:
+#    - media_player.vardagsrummet
+#    - binary_sensor.samsung_tv
+    - sensor.sovrum_temperature
+    - sensor.sovrum_humidity
+    - switch.masterbedroom_gablewindow_1
+    - switch.masterbedoom_streetwindow_2
+
+mainfloor_kitchen:
+  name: Kök
+  entities:
+    - switch.kitchen_gablewindow_12
+    - switch.kitchen_streetwindow_10
+
+
+front_door:
+  name: Hallen
+  control: hidden
+  icon: mdi:glassdoor
+  entities:
+    - sensor.allrum_temperature
+    - switch.hallway_masterbedroom_8
+
+main_floor_outside_lights:
+  name: Belysning utomhus
+  icon: mdi:lightbulb
+  entities:
+#    - light.lampa_ytterdorren
+    - sensor.allrum_temperature
+#    - switch.strombrytare_2

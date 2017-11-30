@@ -1,0 +1,62 @@
+#Bedroom lights:
+#  entities:
+#    - light.bedroom
+
+kitchen lights:
+  entities:
+    - light.hue_color_lamp_2
+    - switch.switch_12
+    - switch.switch_10
+
+Living Room lights:
+  entities:
+    - light.hue_color_lamp_1
+
+#Living Room Accents:
+#  entities:
+#    - light.couch_1
+#    - light.tv_light
+#    - light.tv_stand_light
+
+
+Office lights:
+  entities:
+    - light.office_lamp
+
+#Upstairs lights:
+#  entities:
+#    - light.upstairs_lamp
+#    - light.upstairs_hallway
+
+
+#Outdoor Pool Lights:
+#  entities:
+#    - light.p1_front_left
+#    - light.p1_front_right
+#    - light.p1_back_left
+#    - light.p1_back_right
+
+Outdoor Front Lights:
+  entities:
+#    - light.outdoor_foyer
+
+
+Garage lights:
+  control: hidden
+  entities:
+    - light.garage_attic
+    - switch.garage_outlet
+
+Hallway Lights:
+  entities:
+    - light.kids_hallway
+    - light.bedroom_hallway
+    - light.upstairs_hallway
+
+Moas Room:
+  entities:
+    - light.justin_go
+
+office Room2:
+  entities:
+    - light.paige_go

@@ -1,0 +1,38 @@
+#################################################################
+### Groups
+#################################################################
+
+  default_view:
+    view: yes
+    icon: mdi:home
+    name: Strömgatan 37
+    entities:
+
+###VIEWS
+  masterbedroom_view:
+    view: yes
+    name: Nya Sovrummet
+    entities:
+      group.masterbedroom
+  livingroom_view:
+    view: yes
+    name: Vardagsrum
+    entities:
+      group.livingroom
+  media_view:
+    view: yes
+    icon: mdi:cast
+    name: Media Players
+    entities:
+      group.livingroom
+  lights_view:
+    view: yes
+    icon: mdi:lightbulb
+    name: Lights
+    entities:
+      group.livingroom
+  settings_view:
+    view: yes
+    icon: mdi:settings
+    name: Settings
+    entities:

@@ -1,19 +1,26 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+*.pid
+*.xml
+*.csr
+*.crt
+*.key
+*.conf
+*.pickle
+OZW_Log.txt
+home-assistant.log
+home-assistant_v2.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+deps
+__pycache__
+tts
+secrets.yaml
+secrets
+known_devices.yaml
+phue.conf
+ios.conf
+pyozw.sqlite
+nest.conf
+.uuid
+ipchange.yaml

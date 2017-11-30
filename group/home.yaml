@@ -4,7 +4,7 @@ default_view:
   entities:
     - group.all_automations
     - group.front_door
-    - group.device_tracker
+#    - group.device_tracker
     - sensor.ssl_certificate_expiry
     - group.weather_overview2
     - group.temp
@@ -12,6 +12,7 @@ default_view:
     - group.lights
     - group.misc
     - group.Family
+
 
 device_tracker:
   name: Enheter

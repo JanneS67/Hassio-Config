@@ -1,0 +1,54 @@
+######################################################################
+##  Schemalagda händelser sovrum
+######################################################################
+
+- alias: 'Belysning på sovrum (morgon).'
+  trigger:
+#Tidpunkt att sätta på belysningen på morgonen
+    - platform: time
+      at: '07:00:00'
+# Tidpunkt att sätta på belysningen på eftermiddagen
+    - platform: time
+      at: '14:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_on
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_on
+      entity_id: 
+        - switch.masterbedoom_streetwindow_2
+        - switch.masterbedroom_gablewindow_1
+        - switch.moas_bedroom_window_14
+
+
+- alias: 'Belysning av sovrum (morgon).'
+  trigger:
+    - platform: time
+      at: '10:00:00'
+    - platform: time
+      at: '21:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_off
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_off
+      entity_id: 
+        - switch.masterbedoom_streetwindow_2
+        - switch.masterbedroom_gablewindow_1
+        - switch.moas_bedroom_window_14

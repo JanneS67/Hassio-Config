@@ -82,6 +82,13 @@ emulated_hue:
   - switch
   - script
 
+mqtt:
+  broker: !secret cloudmqtt_server
+  port: !secret cloudmqtt_port
+  username: !secret cloudmqtt_user
+  password: !secret cloudmqtt_password
+
+
 
 
 # Weather prediction

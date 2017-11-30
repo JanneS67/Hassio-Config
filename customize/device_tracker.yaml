@@ -14,10 +14,40 @@ device_tracker.philipshue_hub_1:
   emulated_hue_hidden: True
   hidden: false
   homebridge_hidden: True
-  
+
 device_tracker.amazon_echo_dot_1:
   friendly_name: 'Amazon Dot'
   emulated_hue_hidden: True
   hidden: True
+  homebridge_hidden: True
+  icon: False
+
+device_tracker.iphone5s:
+  friendly_name: 'Janne'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: True
+  icon: False
+
+
+device_tracker.huaweip10:
+  friendly_name: 'Moa'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: True
+  icon: False
+
+
+device_tracker.honor8:
+  friendly_name: 'Maria'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: True
+  icon: False
+
+device_tracker.eyckqzfk_iphone:
+  friendly_name: 'Owntrack'
+  emulated_hue_hidden: True
+  hidden: false
   homebridge_hidden: True
   icon: False

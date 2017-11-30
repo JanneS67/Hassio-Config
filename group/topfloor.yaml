@@ -1,0 +1,45 @@
+topfloor:
+  name: Övervåningen
+  view: yes
+  entities:
+#    - group.netatmo_topfloor
+    - group.topfloor_bedroom
+    - group.topfloor_office1
+    - group.topfloor_office2
+    - group.topfloor_allroom
+
+#netatmo_topfloor:
+#  name: Klimat övervåningen
+#  entities:
+#    - sensor.netatmo_barnrummet_temperature
+#    - sensor.netatmo_barnrummet_humidity
+#    - sensor.netatmo_barnrummet_co2
+#    - sensor.netatmo_barnrummet_noise
+    - sensor.allrum_temperature
+
+topfloor_bedroom:
+  name: Moas sovrum
+  entities:
+    - sensor.moas_rum_ute_temperature
+    - sensor.moas_rum_temperature
+    - sensor.moas_rum_humidity
+    - switch.moas_rum_fonster
+
+topfloor_allroom:
+  name: Allrum
+  entities:
+    - sensor.allrum_temperature
+    - sensor.allrum_humidity
+    - switch.switch_11
+
+
+topfloor_office1:
+  name: Kontor
+  entities:
+    - sensor.kontor_temperature
+
+
+topfloor_office2:
+  name: Syrum
+  entities:
+    - sensor.kontor_temperature

@@ -1,0 +1,81 @@
+######################################################################
+##  Schemalagda händelser klockan 06:00
+######################################################################
+
+- alias: 'Lights on 06:00.'
+  trigger:
+    - platform: time
+      at: '06:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_on
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_on
+      entity_id: switch.kitchen_accents
+
+
+
+- alias: 'Lights off 09:00.'
+  trigger:
+    - platform: time
+      at: '09:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_off
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_off
+      entity_id: switch.kitchen_accents
+
+- alias: 'Lights on 15:00.'
+  trigger:
+    - platform: time
+      at: '06:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_on
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_on
+      entity_id: switch.kitchen_accents
+
+- alias: 'Lights off 09:00.'
+  trigger:
+    - platform: time
+      at: '09:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: light.turn_off
+      entity_id:
+        - light.hue_color_lamp_1
+    - service: switch.turn_off
+      entity_id: switch.kitchen_accents

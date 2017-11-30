@@ -1,0 +1,66 @@
+############################################
+#### Customize Sensors
+############################################
+
+
+sensor.pws_precip_1d:
+  friendly_name: 'Sannolikhet för regn'
+
+sensor.pws_temp_high_1d_c:
+  friendly_name: 'Högsta temperatur idag'
+
+sensor.pws_alerts:
+  friendly_name: 'Vädervarningar'
+
+sensor.pws_precip_1d_mm:
+  friendly_name: 'Regnintensitet'
+
+sensor.pws_temp_low_1d_c:
+  friendly_name: 'Lägsta temperatur idag'
+
+sensor.pws_wind_1d_kph:
+  friendly_name: 'Genomsnitt vindstyrka idag'
+
+sensor.pws_wind_kph:
+  friendly_name: 'Vindstyrka'
+
+sun.sun:
+  friendly_name: Solståndet
+
+
+sensor.kontor:
+  friendly_name: Kontor
+#  icon: mdi:kettle
+  icon: mdi:lightbulb
+sensor.sovrum_temperature:
+  friendly_name: Sovrum temperatur
+  icon: mdi:thermometer
+sensor.sovrum_humidity:
+  friendly_name: Sovrum luftfuktighet
+  icon: mdi:water-percent
+sensor.moas_rum_ute_temperature:
+  friendly_name: Utetemperatur
+  icon: mdi:thermometer
+sensor.moas_rum_temperature:
+  friendly_name: Moas rum temperatur
+  icon: mdi:thermometer
+sensor.moas_rum_humidity:
+  friendly_name: Moas rum luftfuktighet
+  icon: mdi:water-percent
+sensor.kontor_temperature:
+  friendly_name: Kontor temperatur
+  icon: mdi:thermometer
+sensor.allrum_temperature:
+  friendly_name: Allrum temperatur
+  icon: mdi:thermometer
+sensor.allrum_humidity:
+  friendly_name: Allrum luftfuktighet
+  icon: mdi:water-percent
+
+sensor.philio_technology_corporation_unknown_type0001_id0029_power:
+  friendly_name: TV-bänk energiförbrukning
+  icon: mdi:kettle
+#      entity_picture: /local/wemo.jpg
+sensor.philio_technology_corporation_unknown_type0001_id0029_power_2:
+  friendly_name: Server energiförbrukning
+  icon: mdi:kettle

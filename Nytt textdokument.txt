@@ -1,0 +1,18 @@
+device_tracker.iphone5s:
+  friendly_name: 'Jannes Iphone'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: true
+
+device_tracker.huaweip10:
+  friendly_name: 'Moas P10'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: true
+
+
+device_tracker.honor8:
+  friendly_name: 'Marias Honor8'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: true

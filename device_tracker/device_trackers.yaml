@@ -1,0 +1,33 @@
+############################################
+#### DEVICE TRACKER
+############################################
+
+
+- platform: bluetooth_tracker
+  track_new_devices: false
+  consider_home: 120
+#- platform: bluetooth_le_tracker
+#- platform: ddwrt
+#  host: 192.168.1.1
+#  protocol: telnet
+#  mode: router
+#  username: !secret router_user
+#  password: !secret router_pass
+#  track_new_devices: false
+#  consider_home: 300
+#- platform: ddwrt
+#  username: root
+#  password: 1control4me
+#  interval_seconds: 10
+#  consider_home: 180
+#  track_new_devices: yes
+
+- platform: nmap_tracker
+  hosts: 192.168.1.1-255
+  home_interval: 30
+  consider_home: 180
+  track_new_devices: yes
+  exclude:
+   - 192.168.1.50
+   - 192.168.1.51
+

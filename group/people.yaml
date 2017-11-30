@@ -1,0 +1,6 @@
+Family:
+  name: Familj
+  entities:
+    - device_tracker.huaweip10
+    - device_tracker.honor8
+    - device_tracker.iphone5s

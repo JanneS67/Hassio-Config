@@ -1,0 +1,23 @@
+############################################
+#### Customize Device Tracker
+############################################
+
+device_tracker.samsung_tv:
+  friendly_name: 'Samsung Tv'
+  emulated_hue_hidden: True
+#  hidden: True
+  homebridge_hidden: True
+  icon: False
+
+device_tracker.philipshue_hub_1:
+  friendly_name: 'Hue Hub 1'
+  emulated_hue_hidden: True
+  hidden: false
+  homebridge_hidden: True
+  
+device_tracker.amazon_echo_dot_1:
+  friendly_name: 'Amazon Dot'
+  emulated_hue_hidden: True
+  hidden: True
+  homebridge_hidden: True
+  icon: False
